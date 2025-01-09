@@ -51,34 +51,7 @@ Para una mejor experiencia de usuario, se ha creado un diseño simple, intuitivo
 
 Este proyecto ha sido estructurado y diseñado para garantizar un desarrollo rápido, escalable y fácil de mantener. La modularización en componentes y hooks asegura que el código sea limpio y reutilizable, lo que facilita la ampliación y el mantenimiento del proyecto a medida que crece.
 
-prueba_tecnica_contador/
-├── node_modules/                        
-├── src/
-│   ├── assets/ 
-│   │     └── imagesReadme/                 
-│   ├── components/         
-│   │   └── buttons/ 
-│   │         └── PrimaryButton.jsx/
-│   │         └── SecondaryButton.jsx/
-│   │         └── TertiaryButton.jsx/ 
-│   │     └── Counter.jsx/         
-│   ├── hooks/
-│   │     └── CounterHook.jsx/  
-│   ├── pages/  
-│   │    └── Home.jsx/   
-│   └──               
-├── App.jsx                
-├── index.css              
-├── main.jsx                        
-├── .gitignore 
-├── eslint.config.js
-├── index.html    
-├── package-lock.json            
-├── package.json            
-├── postcss.config.js 
-├── README.md        
-├── tailwind.config.js        
-└── vite.config.js            
+![](./src/assets/imagesReadme/estructura_proyecto.png)           
 
 ## Configuración ⚙️
 
