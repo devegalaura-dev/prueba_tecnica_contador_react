@@ -16,13 +16,13 @@
 
 ## Resumen del proyecto realizado 👁️
 
-Este proyecto, se basa en un contador que incia desde cero y permite al usuario incrementar el valor de uno en uno, decrementarlo de uno en uno también y reiniciar el valor de nuevo a cero. Por otro lado, se han marcado ciertos límites; el usuario no podrá bajar el contador a menos de 0, ni podrá aumentarlo a más de 10. A continuación, se explican los detalles que se han tenido en cuenta para que este contador sea intuitivo para el usuario. 
+Este proyecto se basa en un contador que incia desde cero y permite al usuario incrementar el valor de uno en uno, decrementarlo de uno en uno también y reiniciar el valor de nuevo a cero. Por otro lado, se han marcado ciertos límites; el usuario no podrá bajar el contador a menos de 0, ni podrá aumentarlo a más de 10. A continuación, se explican los detalles que se han tenido en cuenta para que este contador sea intuitivo para el usuario. 
 
 ### Experiencia de usuario 🔝
 
-Para una mejor experiencia de usuario, se ha creado un diseño simple, intuitivo, coherente y agradable a la vista. Se ha tenido en cuenta la consistencia en cuanto a los colores y tipografía, el espaciado coherente y la legibilidad y el uso de un contraste adecuado para facilitar el manejo del contador al usuario. Se han diferenciado tres tipos de botones: primario, secundario y terciario, facilitando así las interacciones del usuario y centrando sus acciones hacia donde queremos. A continuación se muestran unas capturas de pantalla en las que se podrán apreciar estos detalles:
+Para una mejor experiencia de usuario se ha creado un diseño simple, intuitivo, coherente y agradable a la vista. Se ha tenido en cuenta la consistencia en cuanto a los colores y tipografía, el espaciado coherente, la legibilidad y el uso de un contraste adecuado para facilitar el manejo del contador al usuario. Se han diferenciado tres tipos de botones: primario, secundario y terciario, facilitando así las interacciones del usuario y centrando sus acciones hacia donde queremos. A continuación se muestran unas capturas de pantalla en las que se podrán apreciar estos detalles:
 
-- Por un lado, con el objetivo de no confundir al usuario, se ha definido que el botón de "decrementar" y "reiniciar", aparezcan deshabilitados cuando el contador esté a cero, ya que estos dos botones no serían necesario en ese momento.
+- Por un lado, con el objetivo de no confundir al usuario se ha definido que el botón de "decrementar" y "reiniciar", aparezcan deshabilitados cuando el contador esté a cero, ya que estos dos botones no serían necesario en ese momento.
 
 ![](./src/assets/imagesReadme/contador0.png)
 
