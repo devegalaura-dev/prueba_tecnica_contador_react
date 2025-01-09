@@ -11,7 +11,8 @@
 ### Opcionales ✨:
 
 - No permitir que el contador baje de 0.
-- Mostrar un mensaje cuando se alcance un número máximo (por ejemplo, 10).
+- Marcar un valor límite que el usuario no pueda sobrepasar(por ejemplo, 10).
+- Mostrar un mensaje de alerta cuando se alcance el valor máximo.
 
 ## Resumen del proyecto realizado 👁️
 
@@ -29,7 +30,7 @@ Para una mejor experiencia de usuario, se ha creado un diseño simple, intuitivo
 
 ![](./src/assets/imagesReadme/contador10.png)
 
--Además, cuando el contador llegue a 10, aparecerá una alerta creada con "SweetAlert2" que avisará al usuario de que ha alcanzado la cifra máxima y, para evitar que esta alerta se cierre por error o sin leer, se ha definido que el usuario tenga que hacer click sobre el botón de "Aceptar" para cerrarla y poder acceder de nuevo al contador. 
+- Además, cuando el contador llegue a 10, aparecerá una alerta creada con "SweetAlert2" que avisará al usuario de que ha alcanzado la cifra máxima y, para evitar que esta alerta se cierre por error o sin leer, se ha definido que el usuario tenga que hacer click sobre el botón de "Aceptar" para cerrarla y poder acceder de nuevo al contador. 
 
 ![](./src/assets/imagesReadme/alerta_máximo_alcanzado.png)
 
@@ -62,12 +63,12 @@ Para configurar y ejecutar el proyecto, sigue estos pasos:
    ```bash
    git clone https://github.com/devegalaura-dev/prueba_tecnica_contador_react
 
-2. Instala las dependencias del frontend:
+2. Instala las dependencias:
 
     ```bash	
     npm install
 
-3. Inicia tu servidor del frontend:
+3. Inicia tu servidor:
 
     ```bash	
     npm run dev´
