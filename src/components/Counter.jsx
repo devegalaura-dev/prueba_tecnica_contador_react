@@ -3,7 +3,7 @@ import Swal from 'sweetalert2';
 import PropTypes from 'prop-types';
 import PrimaryButton from './buttons/PrimaryButton.jsx';
 import SecondaryButton from './buttons/SecondaryButton.jsx';
-import IconButton from './buttons/IconsButtons.jsx';
+import IconButton from './buttons/TertiaryButton.jsx';
 import RefreshIcon from '@mui/icons-material/Refresh';
 import { useCounter } from '../hooks/CounterHook.jsx';
 
