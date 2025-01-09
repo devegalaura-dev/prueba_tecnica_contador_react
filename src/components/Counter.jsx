@@ -35,29 +35,33 @@ const Counter = memo(({
   }, [isMaxValue, max]);
 
   return (
-    <div>
-      <div>{count}</div>
-      <SecondaryButton 
-        text='Decrementar'
-        onClick={decrement} 
-        disabled={isMinValue}
-      >
-        Decrementar
-      </SecondaryButton>
-      <PrimaryButton 
-        text='Incrementar'
-        onClick={increment} 
-        disabled={isMaxValue}
-      >
-        Incrementar
-      </PrimaryButton>
-      <IconButton 
-        icon={<RefreshIcon />} 
-        text = 'Reiniciar'
-        onClick={reset}
-      >
-      </IconButton>
+    <div className="mx-auto p-12 bg-white rounded-lg shadow-lg space-y-4">
+      <div className="text-center text-3xl font-semibold text-gray-700">{count}</div>
+      <div className="flex justify-between gap-4">
+        <SecondaryButton 
+          text='Decrementar'
+          onClick={decrement} 
+          disabled={isMinValue}
+        >
+          Decrementar
+        </SecondaryButton>
+        <PrimaryButton 
+          text='Incrementar'
+          onClick={increment} 
+          disabled={isMaxValue}
+        >
+          Incrementar
+        </PrimaryButton>
+        <IconButton 
+          icon={<RefreshIcon />} 
+          text = 'Reiniciar'
+          onClick={reset}
+          disabled={isMinValue}
+        >
+        </IconButton>
+      </div>
     </div>
+
     
     
   );
