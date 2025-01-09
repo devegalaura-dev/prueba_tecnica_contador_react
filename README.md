@@ -34,7 +34,7 @@ Para una mejor experiencia de usuario, se ha creado un diseño simple, intuitivo
 
 ![](./src/assets/imagesReadme/alerta_máximo_alcanzado.png)
 
-- En cambio, si el contador se encuentra en una cifra que sea supeior a 0 e inferior a 10, el usuario tendrá todos los botones habilitados, ya que todos ellos tendrían utilidad. 
+- En cambio, si el contador se encuentra en una cifra que sea superior a 0 e inferior a 10, el usuario tendrá todos los botones habilitados, ya que todos ellos tendrían utilidad. 
 
 ![](./src/assets/imagesReadme/contador5.png)
 
@@ -71,7 +71,7 @@ Para configurar y ejecutar el proyecto, sigue estos pasos:
 3. Inicia tu servidor:
 
     ```bash	
-    npm run dev´
+    npm run dev
 
 ## Conclusión ✨
 
